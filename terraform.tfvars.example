@@ -1,0 +1,18 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is NOT checked into version control (see .gitignore) because
+# it will contain your Gemini API key once you fill it in.
+
+# Required — no default, terraform apply will prompt for this if left unset.
+gemini_api_key = "AIza-your-real-gemini-api-key-here"
+
+# Recommended for anything beyond local testing — lock this down to your
+# actual frontend origin. Using ["*"] allows any website to call your API
+# and load objects from your S3 bucket's CORS policy.
+allowed_origins = ["https://your-frontend-domain.com"]
+
+# Optional overrides — defaults live in variables.tf, uncomment to change them.
+# aws_region                = "us-west-1"
+# project_name              = "trading-journal"
+# environment               = "prod"
+# gemini_model_id           = "gemini-3.6-flash"
+# bedrock_fallback_model_id = "meta.llama3-2-11b-instruct-v1:0"
