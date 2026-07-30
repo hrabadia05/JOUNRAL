@@ -3,7 +3,7 @@
 # it will contain your Gemini API key once you fill it in.
 
 # Required — no default, terraform apply will prompt for this if left unset.
-gemini_api_key = "AQ.Ab8RN6L8NlKtalpOWAFNh262BYeVRjSglfXTq3pmwEZMl-Es7Q"
+gemini_api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # Recommended for anything beyond local testing — lock this down to your
 # actual frontend origin. Using ["*"] allows any website to call your API
